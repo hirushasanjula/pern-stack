@@ -1,7 +1,7 @@
 import { Link, useResolvedPath } from 'react-router-dom'
 import {ShoppingBagIcon, ShoppingCartIcon} from 'lucide-react'
 import ThemeSelector from './ThemeSelector'
-import { useProductStore } from '../stores/productStore'
+import { useProductStore } from '../store/useProductStore'
 
 function Navbar() {
   const {pathname} = useResolvedPath()
